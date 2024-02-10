@@ -15,8 +15,13 @@
     background-color: #27AE60; /* Verde più scuro al passaggio del mouse */
 }
 
+.navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .navbar-brand img {
     width: 100px; /* Imposta la larghezza massima dell'immagine */
     height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
-  }
+}
