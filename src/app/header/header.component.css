@@ -1,0 +1,22 @@
+.custom-header {
+    background-color: #2ECC71; /* Verde acceso alla moda */
+    color: white; /* Testo bianco per contrasto */
+    padding: 20px; /* Spaziatura interna */
+    box-shadow: 0 4px 6px rgba(46, 204, 113, 0.5); /* Ombra leggera per effetto tridimensionale */
+    border-radius: 8px; /* Bordi arrotondati */
+    text-align: center; /* Testo centrato */
+    font-size: 24px; /* Dimensione del carattere */
+    font-weight: bold; /* Testo in grassetto */
+    text-transform: uppercase; /* Testo in maiuscolo */
+    transition: background-color 0.3s; /* Transizione del colore di sfondo */
+}
+
+.custom-header:hover {
+    background-color: #27AE60; /* Verde più scuro al passaggio del mouse */
+}
+
+
+.navbar-brand img {
+    width: 100px; /* Imposta la larghezza massima dell'immagine */
+    height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+  }
